@@ -803,6 +803,23 @@ span{
         width: 90vw;
         margin-top: 4rem;
     }
+
+    .skill .container{
+        margin: 0;
+        padding: 0;
+    }
+
+    .skill .container .row{
+        grid-template-column: repeat(2,fr);
+        margin: 1rem;
+        padding: 2rem .2rem 2rem .2rem;
+        gap: 1rem;
+    }
+
+    .skill .container{
+        margin-top: 5px;
+        width: 100%
+    }
 }
 
 @media(max-width : 450px){
